@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05879ffb-adb7-466c-ac17-6fb0a5c9febe" name="Changes" comment="Delete main.py">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/dev_deployment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TubeBridge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TubeBridge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dev_deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dev_deployment.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       <workItem from="1725023639323" duration="3500000" />
       <workItem from="1725031319696" duration="2720000" />
       <workItem from="1725035372758" duration="1805000" />
-      <workItem from="1725054696080" duration="186000" />
+      <workItem from="1725054696080" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="Delete main.py">
       <created>1725010721450</created>
