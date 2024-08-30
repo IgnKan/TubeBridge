@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidUnlocked</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('toggle-vpn').addEventListener('click', function() {
+                this.classList.toggle('active');
+                if (this.classList.contains('active')) {
+                    this.textContent = 'VPN Active';
+                } else {
+                    this.textContent = 'Activate VPN';
+                }
+            });
+
+            document.getElementById('nav-home').addEventListener('click', function() {
+                showPage('home');
+            });
+
+            document.getElementById('nav-help').addEventListener('click', function() {
+                showPage('help');
+            });
+
+            document.getElementById('nav-settings').addEventListener('click', function() {
+                showPage('settings');
+            });
+
+            document.querySelectorAll('.back-button').forEach(button => {
+                button.addEventListener('click', function() {
+                    showPage('home');
+                });
+            });
+
+            function showPage(pageId) {
+                document.querySelectorAll('.page').forEach(page => {
+                    page.classList.remove('active');
+                });
+                document.getElementById(pageId).classList.add('active');
+                
+                document.querySelectorAll('.nav-button').forEach(button => {
+                    button.classList.remove('active');
+                });
+                document.getElementById('nav-' + pageId).classList.add('active');
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="VidUnlocked Logo" class="logo">
+            <h1>Молдавский ютуб</h1>
+        </header>
+
+        <main id="main-content">
+            <div id="home" class="page active">
+                <button id="toggle-vpn" class="vpn-button">Activate VPN</button>
+            </div>
+
+            <div id="help" class="page">
+                <h2>Help</h2>
+<p> Сделано в Сынжерее </p>
+                <p>Пользуйтесь YouTube на большой скорости и смотрите видео в любом качестве!</p>
+		<p>Расширение изменяет маршрутизацию трафика YouTube, при этом остальные сайты маршрутизируются прежним способом</p>
+                <button class="back-button">Домой</button>
+            </div>
+
+            <div id="settings" class="page">
+                <h2>Settings</h2>
+                <label>
+                    <input type="checkbox" id="auto-activate">
+                    Автоматический запуск при открытии браузера
+                </label>
+                <button class="back-button">Домой</button>
+            </div>
+        </main>
+
+        <footer>
+            <button id="nav-home" class="nav-button">Главная</button>
+            <button id="nav-help" class="nav-button">Помощь</button>
+            <button id="nav-settings" class="nav-button">Настройки</button>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
