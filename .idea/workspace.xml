@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05879ffb-adb7-466c-ac17-6fb0a5c9febe" name="Changes" comment="Delete main.py">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
       <workItem from="1725008030029" duration="3000000" />
       <workItem from="1725022184647" duration="1427000" />
       <workItem from="1725023639323" duration="3500000" />
-      <workItem from="1725031319696" duration="1370000" />
+      <workItem from="1725031319696" duration="1580000" />
     </task>
     <task id="LOCAL-00001" summary="Delete main.py">
       <created>1725010721450</created>
