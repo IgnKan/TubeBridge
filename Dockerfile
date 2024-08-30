@@ -4,10 +4,10 @@ WORKDIR /app
 
 EXPOSE 8000
 
-RUN pip install 'requirements.txt'
+RUN pip install poetry
 
 COPY . .
 
-CMD ["python", "main.py"]
+CMD ["poetry", "install"]
 
 

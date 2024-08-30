@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05879ffb-adb7-466c-ac17-6fb0a5c9febe" name="Changes" comment="Delete main.py" />
+    <list default="true" id="05879ffb-adb7-466c-ac17-6fb0a5c9febe" name="Changes" comment="Delete main.py">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
@@ -45,7 +50,8 @@
       <updated>1725008027645</updated>
       <workItem from="1725008030029" duration="3000000" />
       <workItem from="1725022184647" duration="1427000" />
-      <workItem from="1725023639323" duration="1320000" />
+      <workItem from="1725023639323" duration="3500000" />
+      <workItem from="1725031319696" duration="1177000" />
     </task>
     <task id="LOCAL-00001" summary="Delete main.py">
       <created>1725010721450</created>
